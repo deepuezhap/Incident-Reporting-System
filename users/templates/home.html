@@ -1,0 +1,10 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+<h1>you are logged in.</h1>
+<a href="{% url 'password_change' %}">Click to change password</a>
+
+
+<a href="{% url 'logout' %}"><h1>logout</h1></a>
+{% endblock %}
